@@ -5,10 +5,10 @@ import os
 joka.PAUSE = 1
 
 def motivacao():
-    joka.alert("🚀 Bora estudar, Joka! Hoje é dia de vitória, ah e detalhe hein e detalhe, elas olham 👊")
+    joka.alert("🚀 Bora estudar, Hoje é dia de vitória, ah e detalhe hein e detalhe, elas olham 👊")
 
 def fechar_apps():
-    apps = ["steam.exe", "wallpaper64.exe", "discord.exe"]
+    apps = ["steam.exe", "wallpaper64.exe", "chrome.exe", "discord.exe"]
     for app in apps:
         os.system(f"taskkill /f /im {app}")
 
